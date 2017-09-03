@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+}
+
+body {
+	background-color: #ECECEC;
+}
+
+/** Navigation **/
+nav ul {
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 50px 15px 25px 50px;
+	font-size: 20px;
+	padding: 5px 15px;
+}
+
+nav img {
+	width: 25px;
+	height: 15px;
+	margin: 45px 0;
+	float: left;
+}
+
+nav .logo{
+	font-family: 'IM Fell Double Pica', serif;
+	float: left;
+	font-size: 24px;
+	line-height: 20px;
+	margin-top: 30px;
+	padding: 15px 35px 15px 15px;
+	color: black;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: 1px solid;
+	margin: 0 auto;
+	width: 95%;
+}
+
+/** Header **/
+.header {
+	text-align: center;
+}
+
+.header {
+	margin-top: 50px;
+	font-size: 12px;
+}
+
+.header h1 > span {
+	color: #ff8095;
+}
+
+.image img {
+	border-radius: 10px;
+	margin-top: 40px;
+	width: 95%;
+	height: 300px;
+	margin: 45px;
+}
+
+.aboutme {
+	float: left;
+	width: 50%;
+	padding-left: 2%;
+	position: absolute;
+	text-align: center;
+}
+
+.aboutme h1 {
+	font-family: 'IM Fell Double Pica', serif;
+	color: #ff8095;
+}
+
+.aboutme p {
+	text-align: left;
+	font-size: 18px;
+	padding: 25px 0 25px 30px;
+}
+
+.mywork {
+	float: right;
+	width: 50%;
+	padding-right: 2%;
+	text-align: center;
+}
+
+.mywork h1 {
+	font-family: 'IM Fell Double Pica', serif;
+	color:  #ff8095;
+	text-align: center;
+}
+
+.mywork p {
+		text-align: left;
+		font-size: 18px;
+		padding: 25px 0 25px 80px;
+}
+
+/** Features **/
+.features {
+	height: 500px;
+	display: inline-block;
+	padding-left: 5%;
+}
+
+.item {
+	float: left;
+	margin: 50px 0;
+	text-align: left;
+	width: 10%;
+	height: 5%;
+	padding: 50px;
+}
+
+.item img {
+	height: 150px;
+	width: 200px;
+	border-radius: 10px;
+	border-bottom: 60px solid white;
+	position: absolute;
+	z-index: -1;
+}
+
+.item h2 {
+	font-size: 16px;
+	padding: 5px;
+	margin: 150px 0px;
+}
+
+.item h3 {
+	font-size: 14px;
+	color:  #ff8095;
+	padding: 0 5px;
+	margin: -150px 0px 0px 0px;
+
+}
+
+.quote {
+	font-family: 'IM Fell Double Pica', serif;
+	color: #ff8095;
+	font-size: 14px;
+	position: absolute;
+	bottom: -620px;
+	right: 500px;
+
+}
+
+/** Footer **/
+.contactForm {
+	background: #333333;
+	color: #7D8186;
+	padding: 80px 0px 0px 10px;
+	margin: 200px 0px 0 0;
+}
+
+.contactForm label {
+	font-family: 'IM Fell Double Pica', serif;
+	color: #ff8095;
+	padding: 100px 0;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.contactForm textarea {
+	background: white;
+	border: none;
+	border-bottom: 1px solid #7D8186;
+	border-top: 1px solid #7D8186;
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	width: 50%;
+}
+
+.contactForm button {
+	background-color: #333333;
+	border:none;
+	clear: both;
+	color: white; 
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.contactForm button:hover {
+	background-color: #fff; 
+	color: #0B1016;
+	cursor: pointer;
+}
+
+.footer .socialIcons {
+	position: absolute;
+	bottom: -900px;
+	right: 100px;
+} 
+
+.socialIcons a {
+	color: #333333;
+	margin: 10px;
+}
+
+.socialIcons .fa-twitter {
+	background-color: #ff8095;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.socialIcons .fa-facebook {
+	background-color: #ff8095;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
+
+.socialIcons .fa-youtube {
+	background-color: #ff8095;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
+
+.socialIcons .fa-google {
+	background-color: #ff8095;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
